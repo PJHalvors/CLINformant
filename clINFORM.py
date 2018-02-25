@@ -14,8 +14,7 @@ import subprocess
 import webbrowser
 import urllib2
 
-print "Please enter a search term or phrase of interest."
-phrase = raw_input()
+phrase = raw_input("Please enter a search term or phrase of interest.")
 while True:
     print "You entered %r. Is that correct? Enter YES or NO" % phrase
     verify = raw_input()
